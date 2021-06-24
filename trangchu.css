@@ -37,12 +37,10 @@
 }
 .sub-menu {
     width:230px;
-    margin-top: 13px;
     margin-top: -8px;
     padding:5px 0px;
     position:absolute;
     top:30%;
-    left:407px;
     left:475px;
     z-index:-1;
     opacity:0;
