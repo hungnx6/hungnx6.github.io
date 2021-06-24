@@ -1,0 +1,245 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+#wapper{
+    width: 980px;
+    font-family: tahoma;
+    margin: auto;
+}
+#header{
+    height: 150px;
+}
+/* CSS MENU */
+#menu{
+    height: 50px;
+    background-color: #604917;
+   margin-top: 17px;
+   border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#menu ul li{
+    list-style: none;
+    float: left;
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 15px;
+    margin-left: 60px;
+}
+#menu ul li a{
+    color: #fff;
+    text-decoration: none;
+   
+}
+#menu ul li:hover{
+    background: #eda915;
+}
+#menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+.sub-menu {
+    width:230px;
+    margin-top: 13px;
+    padding:5px 0px;
+    position:absolute;
+    top:30%;
+    left:407px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px ;
+    background:#2e2728;
+}
+.sub-menu li {
+    display:block;
+    font-size:1px;
+}
+.sub-menu li a {
+    padding:50px -10px;
+    margin-left: -50px;
+    display:block;
+}
+.sub-menu li a:hover{
+    background: #eda915;
+}
+/* CSS CONTENT1 */
+#content1{
+    height: 1050px;
+    width: 226px;
+    /* background: brown; */
+    margin-top: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border:1px solid;
+            border-bottom-color:#009900; /* Green */
+            border-top-color:#FF0000;    /* Red */
+            border-left-color:#330000;   /* Black */
+            border-right-color:#0000CC;  /* Blue */
+}
+.nn{
+    height: 40px;
+    background: #604917;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.nguyennhan{
+
+    text-align: center;
+   padding-top: 10px;
+   color:black;
+}
+.menunn{
+    margin-left: 16px;
+}
+.menunn li {
+list-style: none;
+margin-top: 10px;
+
+}
+.menunn li a{
+    color:black;
+    text-decoration: none;
+   
+}
+.arrow{
+    color: cornflowerblue;
+}
+.nn1{
+    height: 40px;
+    margin-top: 25px;
+    background: #604917;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.nguyennhan1{
+   text-align: center;
+   padding-top: 10px;
+   color:black;
+}
+#content2{
+   /* height: 1000px; */
+   width: 750px;
+   margin-top: -1050px;
+   float: right;
+  
+
+}
+/* .slideshow{
+    height: 254px;
+    width: 754px;
+    float: right;
+    background: cornflowerblue;
+    margin-top: -1098px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+} */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+ /* ẩn hình ảnh cho phần tử slideshow */
+  .mySlides {
+    display: none;
+  }
+
+ /* Thiết lập style cho nội dung của mỗi phần tử slideshow */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 22px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+ /* Thiết lập style cho số hiển thị của phần tử */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  } 
+ /* thiết lập style  nút tròn điều khiển*/
+ .dote{
+    
+     margin-top: -20px;
+ }
+  .dot {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 2px;
+    /* background-color:#f30510; */
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  /* .dot:hover {
+    background-color: #604917;
+  } */
+ /* tạo hiệu ứng chuyển động fade */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+ @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+ @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .nd{
+      margin-top: 20px;
+      margin-left: 5px;
+  }
+  .nd2 p{
+      font-size: 14px;
+      margin: 0 10px;
+      padding: 5px 10px;
+  }
+  #note{
+      height: 200px;
+      width: 980px;
+     
+      margin-top: 350px;
+  }
+  .thongtin{
+    height: 100px;
+    width: 220px;
+    float: left;
+    margin-top: 20px;
+  }
+ .thongtin ul li{
+    list-style: none;
+    line-height: 30px;
+    font-size: 13px;
+    margin-left: 60px;
+}
+.thongtin ul li a{
+    color:black;
+    text-decoration: none; 
+}
+.thongtin h4{
+    margin-left: 60px;
+}
+.store{ 
+  float: right;
+  margin-right: 170px;
+  margin-top: 20px;
+}
+.store p{
+  font-size: 13px;
+  line-height: 30px;
+}
+#footer{
+    height: 5px;
+   
+   margin-top: -190px;
+    background: brown;
+   
+}
